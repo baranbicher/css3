@@ -1,0 +1,151 @@
+body{
+   font-family: arial,sans-serif;
+   /*ust bar */
+}
+#nav{
+    margin: 1px;
+    padding: 1px;
+}
+.sol_ust {
+    text-decoration:none;
+    color: black;
+    float: left;
+    padding: 2px;
+
+}
+.sol_ust:hover{
+    text-decoration: underline;
+}
+.sag_ust {
+    text-decoration:none;
+    color: black;
+    float:right;
+    padding: 2px;
+}
+.sag_ust:hover{
+    text-decoration: underline;
+}
+.app_button{
+    width: 20px;
+    height: 15px;
+    color: gray;
+    float: right;
+    padding: 5px;
+
+}
+.signin{
+    color: honeydew;
+    background-color:dodgerblue;
+    border-style: none;
+    text-decoration: none;
+
+}
+/*ust bar */
+/*logooooooooooooo*/
+.logo{
+    margin-top: 220px;
+}
+
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+  .searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    
+  }
+.voice_img{
+    height:25px;
+    position:relative;
+    top:5px;
+    right: 3px;
+    background-color: transparent;
+  }
+  .search_img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    top: 12px;
+    left:10px;
+    background-color: transparent;
+  }
+  /*search bar and logo end*/
+    /*search buttons*/
+  .buttons{
+    margin-top:20px;
+  }
+  .button{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+  }
+  .button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+  .button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
+
+    /*search buttons*/
+
+    /*footer*/
+    footer {
+        position: absolute;
+        background: #F2F2F2;
+        width: 99.5%;
+        bottom: 0;
+        height: 70px;
+      }
+      
+      
+      footer div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        vertical-align: center;
+        padding: 10px;
+        border-radius: 2px;
+      }
+      
+      footer ul {
+        text-align: center;
+      }
+      
+      footer li {
+        display: inline-block;
+        padding: 0 10px;
+      }
+      
+      footer a {
+        color: #70757A;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+
+    /*footer*/
